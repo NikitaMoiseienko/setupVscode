@@ -1,8 +1,18 @@
 [
 
+  // ESLINT auto all fix
   {
       "key": "ctrl+shift+alt+i",
       "command": "eslint.executeAutofix"
+  },
+  
+  /**
+  * ctrl+shift+alt+g => this is a chord for custom near-git commands
+  */
+  {
+    "key": "ctrl+shift+alt+g c",
+    "command": "git.openChange",
+    "when": "editorTextFocus"
   },
 
 /* VSCode keybindings for alternative HJLK navigation, when using non-vim mode
