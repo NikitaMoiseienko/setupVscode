@@ -1,0 +1,55 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 2,
+    "todohighlight.keywords": [
+        {
+            "text": "@Get",
+            "color": "#ffffff",
+            "borderRadius": "10px",
+            "backgroundColor": "#0050E0",
+            "overviewRulerColor": "grey",
+        },
+        {
+            "text": "@Post",
+            "color": "#ffffff",
+            "borderRadius": "10px",
+            "backgroundColor": "#1B992E",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "@Put",
+            "color": "#ffffff",
+            "borderRadius": "10px",
+            "backgroundColor": "#FC6F0A",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "@Delete",
+            "color": "#ffffff",
+            "borderRadius": "10px",
+            "backgroundColor": "#F93E3E",
+            "overviewRulerColor": "grey"
+        },
+    ],
+    "editor.fontSize": 16,
+    "editor.cursorStyle": "block-outline",
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.autoClosingQuotes": "beforeWhitespace",
+    "editor.mouseWheelZoom": true,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "expand",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.scrollback": 10000,
+    "editor.cursorSmoothCaretAnimation": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "json.maxItemsComputed": 100000,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace"
+}
